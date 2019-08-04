@@ -8,10 +8,11 @@ Ed Ali
 
 Minor change: A small name change since the last one wasn't good. Not saying this one is much better
 
-**Serious Changes**
+**Serious Changes:**
+
 Basically, I realized that the schema structure for this applicaiton made no sense in trying to build out a tournament bracket. I needed to connect Brackets to Round to Matches to Players. In my effort to re-write most of the code from WebApp1B to WebApp2, I had to scrap most things from before and re-organize things. Basically, had I gone from design to code instead of Code First, I probably would've saved myself a ton of headaches.
 
-Unfortunately, I ran out of time in making the app functional. Seed data and database initialization are basically busted and I'm confused how to fix this. *I was hoping you could give me some feedback in looking at what mistakes I've made here*.
+Unfortunately, I ran out of time in making the app functional. Seed data and database initialization are basically busted and I'm confused how to fix this. *I was hoping you could give me some feedback in looking at what mistakes I've made here*.  I think my biggest issue involves Match.cs since it causes SqlException(0x80131904) on all CRUD attempts. But I didn't have enough time remaining to address that, so that will also be left for WebApp3
 
 ## Future Goals
 
